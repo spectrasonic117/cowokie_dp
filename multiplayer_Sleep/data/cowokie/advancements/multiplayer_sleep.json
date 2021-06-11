@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": "Multiplayer Sleep",
+    "description": [
+      "",
+      {
+        "text": "Datapack para dormir en Servidores\n",
+        "color": "green"
+      },
+      { "text": "\n", "color": "green" },
+      { "text": "/trigger mpSleep", "color": "yellow" },
+      { "text": " Personaliza el Plugin\n", "color": "gold" },
+      { "text": "\n", "color": "green" },
+      { "text": "/function multiplayer_sleep:config", "color": "yellow" },
+      { "text": " Abre opciones de Configuración", "color": "gold" }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "cowokie:data",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

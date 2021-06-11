@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_shell"
+    },
+    "title": "Doble Shulkers Shields   ",
+    "description": [
+      "",
+      { "text": "Los Shulkers Ahora Dropean Doble!!!", "color": "gold" }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "cowokie:data",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

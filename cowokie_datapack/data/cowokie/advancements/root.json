@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Cowokie_ Server",
+    "description": "¡Bienvenido al Server de Cowokie!",
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Name: \"Cowokie_\", Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTYyMzMzNDQ4NTYyMSwKICAicHJvZmlsZUlkIiA6ICI2MWVhMDkyM2FhNDQ0OTEwYmNlZjViZmQ2ZDNjMGQ1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVEYXJ0aEZhdGhlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ODRlODkzOWI2MGFmZDA4NDhiMmI0MjQyMTEwOGZhYzYwZmQyYTk5YWFkNmRjZmM2OThhZWJkNjdjNWRmZWIyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\"}]}}}"
+    },
+    "background": "minecraft:textures/block/smooth_basalt.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
